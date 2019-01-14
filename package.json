@@ -1,0 +1,16 @@
+{
+  "name": "scrapewu",
+  "version": "1.0.0",
+  "description": "An app that scrapes graduation requirements from Whitworth University's website and displays them in a REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elizabeth Min",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "firebase-admin": "^6.5.0",
+    "x-ray": "^2.3.3"
+  }
+}
