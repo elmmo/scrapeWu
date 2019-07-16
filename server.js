@@ -3,6 +3,7 @@ const express = require('express');
 const Xray = require('x-ray'); 
 const beautify = require('js-beautify').js; 
 
+// SERVER
 // setting up firebase connection 
 Firebase.init(); 
 // setting up Node.js app 
@@ -16,7 +17,8 @@ app.listen(port, () => {
 
 app.use('/grad', router); 
 
-// routes 
+// ROUTES 
+// middleware 
 router.use((req, res, next) => {
     console.log("Something is happening"); 
     next(); 
